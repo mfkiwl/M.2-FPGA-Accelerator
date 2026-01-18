@@ -2033,6 +2033,16 @@
 		)
 		(uuid "d1f95db2-a822-496d-8684-6b51388e2f50")
 	)
+	(text "DOUBEL CHECK m.2 FOOTPRINT AND SIZEW"
+		(exclude_from_sim no)
+		(at 363.22 107.696 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "dd029415-4318-4aab-b596-7360e0a36587")
+	)
 	(junction
 		(at 162.56 38.1)
 		(diameter 0)
