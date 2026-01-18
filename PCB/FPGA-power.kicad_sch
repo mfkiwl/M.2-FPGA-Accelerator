@@ -17251,7 +17251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 106.68 239.268 90)
 			(effects
 				(font
@@ -19761,7 +19761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 138.43 41.148 90)
 			(effects
 				(font
