@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -1051,7 +1090,7 @@
 			(pinfunction "OUT")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "4dd350da-9670-4754-8c47-9fb62011c822")
+			(uuid "511dd927-01bb-45e4-8c8c-2f201d58401a")
 		)
 		(pad "2" smd roundrect
 			(at -0.675 0.35)
@@ -1073,7 +1112,7 @@
 			(pinfunction "IN2")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "e962dc07-1ed3-430a-b8f8-f907729c3e28")
+			(uuid "6178db98-18c3-4ac0-85fd-849762ff5cc9")
 		)
 		(pad "3" smd roundrect
 			(at -0.75 1.15)
@@ -1135,7 +1174,7 @@
 			(net 4 "+VM2_3V3")
 			(pinfunction "IN1")
 			(pintype "power_in")
-			(uuid "305b2cea-aa35-4b2b-90d6-ce57b8f61f04")
+			(uuid "3fe8f02a-0482-4e9d-b2fd-6a93420112ad")
 		)
 		(pad "8" thru_hole circle
 			(at 0.4 -0.35)
@@ -1157,7 +1196,7 @@
 			(net 2 "+3V3")
 			(pinfunction "OUT")
 			(pintype "power_in")
-			(uuid "43452205-57d4-4588-a796-a4c41dc230d2")
+			(uuid "3ebe27ca-feb6-4263-bc46-a6bacdfc013a")
 		)
 		(pad "9" smd roundrect
 			(at 0.75 -1.15)
@@ -6119,13 +6158,13 @@
 	(footprint "Package_BGA:Xilinx_FGG484"
 		(layer "F.Cu")
 		(uuid "1a3c53a8-a988-486d-a629-3ac4298f0acc")
-		(at 36.11 58.15)
+		(at 143.75 92.5)
 		(descr "Artix-7 BGA, NSMD pad definition Appendix A, 23x23mm, 484 Ball, 22x22 Layout, 1mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.xilinx.com/support/documentation/user_guides/ug475_7Series_Pkg_Pinout.pdf#page=275")
 		(tags "BGA 484 1 FG484 FGG484")
 		(property "Reference" "U1"
 			(at 0 -12.5 0)
 			(layer "F.SilkS")
-			(uuid "503f5839-124e-4517-8af3-cfc63147fdd2")
+			(uuid "991805d1-a359-4bb4-886f-3eb357bd8696")
 			(effects
 				(font
 					(size 1 1)
@@ -6136,7 +6175,7 @@
 		(property "Value" "XC7A50T-FGG484"
 			(at 0 12.5 0)
 			(layer "F.Fab")
-			(uuid "251d8dd4-9b65-480a-a6c1-847e14711abf")
+			(uuid "7cb91171-d598-43e9-a4a3-5b1473dc2d1c")
 			(effects
 				(font
 					(size 1 1)
@@ -6148,7 +6187,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a037128b-073a-457f-90f9-5d12470c5674")
+			(uuid "fef35a73-e959-4198-94f4-6a9b88470374")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6199,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13a10808-7ef1-4045-87ba-d5fc918b2c81")
+			(uuid "51123e09-c48d-4705-9adb-d21fa0b5cf38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,7 +13551,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "6a02d518-b048-460b-9255-eddc9d51489a")
+			(uuid "b5a238ba-35a7-42f7-a620-8d3a75b6005a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A_Horizontal.step"
@@ -21103,7 +21142,7 @@
 	(footprint "Inductor_SMD:L_Sunlord_SWPA4030S"
 		(layer "F.Cu")
 		(uuid "48ea6c8a-42fd-4c35-8c30-7b8710e5dc69")
-		(at 102.69 86.09)
+		(at 179.69 90.52)
 		(descr "Inductor, Sunlord, SWPA4030S, 4.0x4.0x3.0mm, (https://www.sunlordinc.com/UploadFiles/PDF_Cat/20120704094224784.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "swpa")
 		(property "Reference" "L2"
@@ -23177,7 +23216,7 @@
 	(footprint "easyeda2kicad:QFN-28_L5.0-W5.0-P0.50-TL-EP3.2"
 		(layer "F.Cu")
 		(uuid "57445673-c242-4e05-91b4-19db0ce88066")
-		(at 98.31 70.14)
+		(at 186.5 92.43)
 		(property "Reference" "U2"
 			(at 0 -6.43 0)
 			(layer "F.SilkS")
@@ -33930,7 +33969,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "c9a14c26-afc0-4e0f-a90f-c43188ceefba")
 		)
 		(pad "33" thru_hole circle
 			(at -1 1)
@@ -33942,7 +33981,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "c79ec409-92a2-4738-bb96-860e313cc1e3")
 		)
 		(pad "33" thru_hole circle
 			(at 0 -1)
@@ -33954,7 +33993,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "b9a0b05a-32d6-4423-a1e5-a3562b62d686")
 		)
 		(pad "33" thru_hole circle
 			(at 0 0)
@@ -33966,7 +34005,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "cffedfe9-5e06-4acf-a7a9-6f12dd04fc5a")
 		)
 		(pad "33" smd rect
 			(at 0 0)
@@ -33977,7 +34016,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "abb2b154-3c14-4198-9bef-fd543952fd01")
 		)
 		(pad "33" smd rect
 			(at 0 0)
@@ -33988,7 +34027,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "5832b983-68a0-4d39-959a-75a5d2e94889")
 		)
 		(pad "33" thru_hole circle
 			(at 0 1)
@@ -34000,7 +34039,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "b75cda33-ddf9-4ab4-b7d5-a87774aefa2b")
 		)
 		(pad "33" thru_hole circle
 			(at 1 -1)
@@ -34012,7 +34051,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "00ccf98c-da67-4663-8be7-9c0352f70aa1")
 		)
 		(pad "33" thru_hole circle
 			(at 1 0)
@@ -34024,7 +34063,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "64f957b2-6d28-458c-bad1-55bfad196a98")
 		)
 		(pad "33" thru_hole circle
 			(at 1 1)
@@ -34036,7 +34075,7 @@
 			(net 1 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
-			(uuid "88405e38-d7b2-49ad-b03d-718895e3f101")
+			(uuid "b3ce347c-a621-4b17-afbe-1ee3a47e1aa7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm.step"
@@ -36038,7 +36077,7 @@
 	(footprint "Inductor_SMD:L_Sunlord_SWPA4030S"
 		(layer "F.Cu")
 		(uuid "8e79396a-1857-4c85-908f-9c530bc79a91")
-		(at 102.69 80.54)
+		(at 179.69 84.97)
 		(descr "Inductor, Sunlord, SWPA4030S, 4.0x4.0x3.0mm, (https://www.sunlordinc.com/UploadFiles/PDF_Cat/20120704094224784.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "swpa")
 		(property "Reference" "L1"
@@ -42129,7 +42168,7 @@
 	(footprint "Inductor_SMD:L_Sunlord_SWPA4030S"
 		(layer "F.Cu")
 		(uuid "9db6a59a-156e-4e12-904a-3eb22faf32b6")
-		(at 102.69 97.19)
+		(at 179.69 101.62)
 		(descr "Inductor, Sunlord, SWPA4030S, 4.0x4.0x3.0mm, (https://www.sunlordinc.com/UploadFiles/PDF_Cat/20120704094224784.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "swpa")
 		(property "Reference" "L4"
@@ -42803,14 +42842,15 @@
 		)
 	)
 	(footprint "FPGA:M.2 M-Key 2242"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a27e4e67-67b4-43e8-9165-aa4d62a028bb")
-		(at 141.16 126.68)
+		(at 143.75 140.25)
 		(property "Reference" "J1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9d6a3792-257d-49c1-be36-b584615cba1a")
+			(uuid "06a327ab-561b-487b-af7d-1bb25ed47446")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42822,7 +42862,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4c2aedcf-b08d-4ace-b283-83c7489c9a3a")
+			(uuid "91f175d8-2195-4b5d-b783-e93a71000772")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42834,7 +42874,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7352402a-a90b-4170-9331-58be26d2fb62")
+			(uuid "56e953a2-e07e-4e21-bce3-ec8256874777")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42846,7 +42886,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54166aee-78ad-49a8-b163-673c3a56355a")
+			(uuid "abdef251-b3b2-486f-9b39-8a132dfd454c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54086,7 +54126,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4f0931bb-c5ed-4daf-8f88-49425c9d055f")
+			(uuid "710a591f-6ae2-4e31-87b2-cf232bb061e8")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -54097,7 +54137,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "4f0931bb-c5ed-4daf-8f88-49425c9d055f")
+			(uuid "7685f342-60bd-427f-9e90-aa4d5fbc1445")
 		)
 		(pad "17" smd rect
 			(at 0 0)
@@ -54108,7 +54148,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "4f0931bb-c5ed-4daf-8f88-49425c9d055f")
+			(uuid "202bc0b0-572b-4924-a944-7efbd8b409af")
 		)
 		(pad "17" thru_hole circle
 			(at 0.59 -0.59)
@@ -54120,7 +54160,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4f0931bb-c5ed-4daf-8f88-49425c9d055f")
+			(uuid "a3a15f9c-7fc0-4b7c-b717-fd16d34a0f44")
 		)
 		(pad "17" thru_hole circle
 			(at 0.59 0.59)
@@ -54132,7 +54172,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "4f0931bb-c5ed-4daf-8f88-49425c9d055f")
+			(uuid "f55e0c70-a18b-4fe5-9171-e7ed445cfd49")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.step"
@@ -58433,7 +58473,7 @@
 			(net 1 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "dafbf942-70f9-40cb-8212-dfad16753eb1")
+			(uuid "4859aa2b-c8c2-42ec-9ff3-2bfad6a0f8d7")
 		)
 		(pad "SH" thru_hole oval
 			(at 3.435 -7.25)
@@ -58444,7 +58484,7 @@
 			(net 1 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "dafbf942-70f9-40cb-8212-dfad16753eb1")
+			(uuid "6ea57da9-6e69-4986-b6fc-706906cb646a")
 		)
 		(pad "SH" thru_hole oval
 			(at 3.435 7.25)
@@ -58455,7 +58495,7 @@
 			(net 1 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "dafbf942-70f9-40cb-8212-dfad16753eb1")
+			(uuid "a7f0cdd8-69db-4053-a24e-73c768e61519")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Video.3dshapes/HDMI_A_Molex_208658-1001_Horizontal.step"
@@ -61700,7 +61740,7 @@
 	(footprint "Inductor_SMD:L_Sunlord_SWPA4030S"
 		(layer "F.Cu")
 		(uuid "f0fcb1a7-5696-4343-a9f3-8a343327fe55")
-		(at 102.69 91.64)
+		(at 179.69 96.07)
 		(descr "Inductor, Sunlord, SWPA4030S, 4.0x4.0x3.0mm, (https://www.sunlordinc.com/UploadFiles/PDF_Cat/20120704094224784.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "swpa")
 		(property "Reference" "L3"
@@ -62381,7 +62421,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "222b4bf9-6ba6-4ded-a54a-f93d7a9be199")
+			(uuid "64e7b829-ae79-4ea7-a26a-d56d86270178")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.13)
@@ -62393,7 +62433,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "222b4bf9-6ba6-4ded-a54a-f93d7a9be199")
+			(uuid "574f571a-7ea2-4855-8e47-750ce6ed43fb")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.05)
@@ -62405,7 +62445,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "222b4bf9-6ba6-4ded-a54a-f93d7a9be199")
+			(uuid "21b9454e-9a3e-4484-ad6f-a106298ea647")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
