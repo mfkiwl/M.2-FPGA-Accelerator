@@ -14003,7 +14003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 88.5952 96.52 0)
 			(effects
 				(font
