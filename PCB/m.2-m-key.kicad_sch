@@ -4029,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FPGA:M.2 M-Key 2242"
 			(at 162.56 85.09 0)
 			(effects
 				(font

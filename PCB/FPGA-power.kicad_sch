@@ -14743,7 +14743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
 			(at 321.0052 66.04 0)
 			(effects
 				(font
@@ -14762,6 +14762,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 320.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ETPE330MA9GB"
+			(at 320.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C542287"
 			(at 320.04 62.23 0)
 			(effects
 				(font
