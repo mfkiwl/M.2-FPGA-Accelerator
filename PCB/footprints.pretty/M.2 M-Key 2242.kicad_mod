@@ -53,7 +53,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -11 -41.5)
+		(start -11 -79.499999)
 		(end -11 -4.2)
 		(stroke
 			(width 0.05)
@@ -143,8 +143,8 @@
 		(uuid "cd66cd1f-0a11-43cb-a4b2-c3ebb3b98440")
 	)
 	(fp_line
-		(start 10.5 -42)
-		(end -10.5 -42)
+		(start 10.5 -80)
+		(end -10.5 -80)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -154,7 +154,7 @@
 	)
 	(fp_line
 		(start 11 -4.2)
-		(end 11 -41.5)
+		(end 11 -79.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -163,9 +163,9 @@
 		(uuid "0bd72be1-4b6d-4b2d-8e7a-f3eeab6018cc")
 	)
 	(fp_arc
-		(start -11 -41.5)
-		(mid -10.853553 -41.853553)
-		(end -10.5 -42)
+		(start -11 -79.5)
+		(mid -10.853553 -79.853553)
+		(end -10.5 -80)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -251,9 +251,9 @@
 		(uuid "16c5f789-d2a0-4bde-ba5d-004c44d0e7b6")
 	)
 	(fp_arc
-		(start 10.5 -42)
-		(mid 10.853553 -41.853553)
-		(end 11 -41.5)
+		(start 10.5 -80)
+		(mid 10.853553 -79.853553)
+		(end 11 -79.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -273,7 +273,7 @@
 		(uuid "f2793c65-145b-4872-827e-e8b289bfa813")
 	)
 	(pad "MOUNTING-HOLE" thru_hole circle
-		(at 0 -42)
+		(at 0 -80)
 		(size 5.5 5.5)
 		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
@@ -749,6 +749,12 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(uuid "4f60eb8d-bd09-44d0-beb9-b9a23d72bc00")
+	)
+	(group ""
+		(uuid "df7d6e5f-e988-46d6-8ebc-7c0a8c9f870e")
+		(members "05c7bb2b-0922-4b6d-a3d9-9fe94a198001" "4a7f92e8-3804-45b9-a4c3-690a4f0b6a6b"
+			"861cd23e-082b-4b4a-af58-e9777d0aa729" "e415e28b-d615-4e36-9a01-66b96711d3fc"
+		)
 	)
 	(embedded_fonts no)
 )
