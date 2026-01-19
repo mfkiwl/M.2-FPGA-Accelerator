@@ -512,7 +512,13 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "EPHY",
+        "name": "EPHY_MDI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "EPHY_RMII",
         "pcb_color": "rgb(129, 255, 65)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
@@ -520,7 +526,7 @@
       {
         "name": "HDMI",
         "pcb_color": "rgb(0, 174, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -553,6 +559,38 @@
       {
         "netclass": "DDR3_ADDRESS",
         "pattern": "*DDR_A*"
+      },
+      {
+        "netclass": "DDR3_ADDRESS",
+        "pattern": "*DDR_B*"
+      },
+      {
+        "netclass": "DDR3_DATA",
+        "pattern": "*DDR_DQ*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_*"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "*HDMI_D*"
+      },
+      {
+        "netclass": "EPHY_MDI",
+        "pattern": "*/Ethernet/PHY_RX*"
+      },
+      {
+        "netclass": "EPHY_MDI",
+        "pattern": "*/Ethernet/PHY_TX*"
+      },
+      {
+        "netclass": "EPHY_RMII",
+        "pattern": "*PHY_RXD*"
+      },
+      {
+        "netclass": "EPHY_RMII",
+        "pattern": "*PHY_TXD*"
       }
     ]
   },
