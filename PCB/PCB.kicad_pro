@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -471,7 +471,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -543,8 +543,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "PCIe",
+        "pattern": "*PCIe*"
+      },
+      {
+        "netclass": "DDR3_CLOCK",
+        "pattern": "*DDR_CLK*"
+      },
+      {
+        "netclass": "DDR3_ADDRESS",
+        "pattern": "*DDR_A*"
       }
     ]
   },
