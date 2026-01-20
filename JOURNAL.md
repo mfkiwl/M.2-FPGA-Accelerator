@@ -324,7 +324,7 @@ Now we need to just wire these PCIe signals into our FPGA, and BOOM, we're done!
 
 We don't use the other clock and it's probably reserved for some other uses, so I'm just going to no connect it for now! I want to double check I did this right later, but it should be fine! 
 
-## Time to HDMI
+## Time to HDMI - 6 Hours
 
 Because I want my FPGA hardware accelerator devboard to function as a standalone devboard, I really want to add HDMI so that I can use it as a linux capable device, and some other very fun shenanigans. 
 
@@ -347,3 +347,25 @@ And then CEC is just the electronics control and it's a 3V3 signal that I just n
 I added ESD protection to all of the lines, just because I want to create a pretty professional board, and I also added minor AC coupling because it's really fast edge-rate signals.
 
 I think I had a really strong fundamental understanding of this wiring which I'm really proud of myself for, but I really need to get that 5V sorted out, and a $1 boost might be the best way to do that. 
+
+## Ethernet shenanigans - 7
+
+The second peripheral I wanted to add onto the board is ethernet! 
+
+Ethernet is really cool to add to an FPGA board like this, because it allows you to use the FPGA as like a firewall of sort, or even send signals, and it just has some really neat use cases.
+
+I decided to use a magjack with integrated magnetics and other useful stuff because I don't want to have to worry about all of that working with ethernet for the first time. 
+
+![[Pasted image 20260120062520.png]]
+
+First, you'll notice really strong pullups on MDI lines. These aren't actually pullups, and are instead parallel termination. Essentially when signal reflections hit these lines, they'll sink into the power/ground instead of just continuously reflecting, and this is why it's on the analog rail, so the power can get filtered! 
+
+Next, you'll notice my basic decoupling and termination on TX/RX lanes. The RX termination will be close to the PHY, and the TX termination will be closer to the MAC.
+
+RMII needs a 50 MHz crystal, so I've added that in, alongside a feedback resistor which just makes the crystal function smoothly, but you don't really need that so it's just DNP.
+
+I added a button onto the ethernet PHY to force reset, because it's a devboard, I just want a bit more customization, so I decided to just add this!
+
+Finally, we have the LED's, one is pulled up internally, and one needs an external pullup, but once they have pullups they act as current sinks so I can just wire those as sinks to the PHY LED's.
+
+And BOOM, we have ethernet fully wired on our board! I'm really excited to work more with ethernet and understand the PHY and magnetics some more, because they seem really cool!
