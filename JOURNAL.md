@@ -323,3 +323,27 @@ Now we need to just wire these PCIe signals into our FPGA, and BOOM, we're done!
 ![Pasted image 20260111214553.png](images/Pasted%20image%2020260111214553.png)
 
 We don't use the other clock and it's probably reserved for some other uses, so I'm just going to no connect it for now! I want to double check I did this right later, but it should be fine! 
+
+## Time to HDMI
+
+Because I want my FPGA hardware accelerator devboard to function as a standalone devboard, I really want to add HDMI so that I can use it as a linux capable device, and some other very fun shenanigans. 
+
+Because you could plug it into both your computer and HDMI, you could do fun things like low latency video output or video processing or even data visualization for the whole acceleration!
+
+So I came up with this little schematic:
+
+![[Pasted image 20260120061538.png]]
+
+First of all, I don't want ethernet powering my board, so I added a diode to prevent that, and it's connected to VBUS so if USB is plugged in, you get the extra features from HDMI.
+
+I want to actually add a really small boost onto the board so that I can get these features, so I'll think about the best way of adding that! 
+
+My board is pretty noisy, so I added a 1uF cap just because I can, and then of course 100nF for basic decoupling.
+
+The only signals that actually need level shifting is DDC because it's I2C so it's decently fast and important signals. I decided to do some fancy current limiting on HPD so it's a really weak 5V signal that can't damage my FPGA but the FPGA can clamp the voltage to still be able to read it! 
+
+And then CEC is just the electronics control and it's a 3V3 signal that I just need a weak pullup on! 
+
+I added ESD protection to all of the lines, just because I want to create a pretty professional board, and I also added minor AC coupling because it's really fast edge-rate signals.
+
+I think I had a really strong fundamental understanding of this wiring which I'm really proud of myself for, but I really need to get that 5V sorted out, and a $1 boost might be the best way to do that. 
