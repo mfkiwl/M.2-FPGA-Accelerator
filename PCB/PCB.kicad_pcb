@@ -12118,7 +12118,7 @@
 		(property "Reference" "U15"
 			(at 0 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "7cf12d20-5b05-4106-a7e1-474b9ac8c02a")
+			(uuid "17cf93df-143b-4689-905b-f0c543588bac")
 			(effects
 				(font
 					(size 1 1)
@@ -12129,7 +12129,7 @@
 		(property "Value" "UCL0524P"
 			(at 0 2.54 0)
 			(layer "F.Fab")
-			(uuid "61c71fab-b90f-4227-8dff-e4209711b302")
+			(uuid "01250be4-9660-4a4d-83af-8b9d027b9ca8")
 			(effects
 				(font
 					(size 1 1)
@@ -12142,7 +12142,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac43f3a8-0ae4-44c5-b3a9-5bf369aacebf")
+			(uuid "4b98413b-8fae-457c-92a7-1269c232db72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +12155,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af1dd635-ed76-415b-8dfe-63c4adca74a2")
+			(uuid "c6988ef7-6e89-49c4-bde9-ef79320bf12e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64229,7 +64229,7 @@
 		(property "Reference" "J7"
 			(at 0 -6.3 0)
 			(layer "F.SilkS")
-			(uuid "9882be66-54b7-439e-8a83-e4f8a076c76e")
+			(uuid "da9b0f21-f54a-425c-bb7b-d3518c80f792")
 			(effects
 				(font
 					(size 1 1)
@@ -64240,7 +64240,7 @@
 		(property "Value" "HDMI_D_1.4"
 			(at 0 3.6 0)
 			(layer "F.Fab")
-			(uuid "bf0e24c5-989b-4640-b7b3-c256b73dc5cf")
+			(uuid "00d6cbb9-2a6b-4911-bd8c-2ca3e70e9a7c")
 			(effects
 				(font
 					(size 1 1)
@@ -64253,7 +64253,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32c804f3-2405-4703-afbb-f3e9205a5351")
+			(uuid "ef05ad34-066c-4bf6-9951-8707bc16fddf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64266,7 +64266,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1da37059-42c6-4951-bd9d-f531ae5115bf")
+			(uuid "1d13ec2c-4f13-497d-ae11-8976e0da055d")
 			(effects
 				(font
 					(size 1.27 1.27)

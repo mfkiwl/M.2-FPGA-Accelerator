@@ -5062,6 +5062,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "HYC23-HDMID19-650"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C711358"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76ac8165-f4fb-46f4-9989-953b8dffa08f")
 		)

@@ -3359,6 +3359,16 @@
 	(bus_alias "JTAG"
 		(members "JTAG_TCK" "JTAG_TDI" "JTAG_TDO" "JTAG_TMS")
 	)
+	(text "rj45 recessed lcsc"
+		(exclude_from_sim no)
+		(at 286.766 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e0f9190-4bdc-401e-9aaf-7585bddf0c33")
+	)
 	(text "100 Mbps, RMII Ethernet!"
 		(exclude_from_sim no)
 		(at 34.29 18.796 0)
@@ -3390,6 +3400,16 @@
 		)
 		(uuid "556934fa-6efe-498a-b443-641a08f0abad")
 	)
+	(text "https://jlcpcb.com/partdetail/HDGC-RJ45_DB101PWB/C2936176"
+		(exclude_from_sim no)
+		(at 308.102 187.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bf28af7-ca5c-4fb4-9248-4af47a4ba045")
+	)
 	(text "< Internal pullup!"
 		(exclude_from_sim no)
 		(at 198.12 149.86 0)
@@ -3399,6 +3419,26 @@
 			)
 		)
 		(uuid "9d530768-62cb-44f3-87d4-1f53e9b42f00")
+	)
+	(text "https://jlcpcb.com/partdetail/Heling-MJ88_B011XRVS1/C501464"
+		(exclude_from_sim no)
+		(at 309.88 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c878fa34-2638-483d-b512-a45e4f8cd2ce")
+	)
+	(text "https://jlcpcb.com/partdetail/Heling-MJ88B_B011_RVL11P/C501462"
+		(exclude_from_sim no)
+		(at 308.864 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da990e6c-8412-430d-860c-8939e444c852")
 	)
 	(text "< Driving the 3V3 analog rail"
 		(exclude_from_sim no)
