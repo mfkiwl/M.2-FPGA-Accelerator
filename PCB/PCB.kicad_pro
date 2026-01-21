@@ -808,7 +808,7 @@
     ],
     [
       "b3feae67-f5ac-44a3-90a4-88fd0a4da47c",
-      "USB-C and JTAG"
+      "USB to JTAG"
     ],
     [
       "95cb9219-15bb-49aa-939c-f3c0ddd8f386",
@@ -824,7 +824,7 @@
     ],
     [
       "09aa8758-c80d-4d7c-89ed-08037b84af81",
-      "Ethernet"
+      "USB to UART"
     ]
   ],
   "text_variables": {}

@@ -198,7 +198,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "09aa8758-c80d-4d7c-89ed-08037b84af81")
-		(property "Sheetname" "Ethernet"
+		(property "Sheetname" "USB to UART"
 			(at 140.97 188.5184 0)
 			(effects
 				(font
@@ -207,7 +207,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ethernet.kicad_sch"
+		(property "Sheetfile" "usb-c.kicad_sch"
 			(at 140.97 248.2346 0)
 			(effects
 				(font
@@ -660,7 +660,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b3feae67-f5ac-44a3-90a4-88fd0a4da47c")
-		(property "Sheetname" "USB-C and JTAG"
+		(property "Sheetname" "USB to JTAG"
 			(at 274.32 51.3584 0)
 			(effects
 				(font
