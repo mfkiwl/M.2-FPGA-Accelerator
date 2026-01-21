@@ -9,6 +9,10 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
+		(8 "In3.Cu" signal)
+		(10 "In4.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -50,8 +54,52 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.51)
+				(thickness 0.535)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In3.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 4"
+				(type "core")
+				(thickness 0.535)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In4.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 5"
+				(type "prepreg")
+				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -40256,7 +40304,7 @@
 	(footprint "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.35x4.35mm"
 		(layer "F.Cu")
 		(uuid "c2687bf3-4b6d-41fc-9915-ddbcdcce331e")
-		(at 138.575 67.6 180)
+		(at 137.85 67.65 180)
 		(descr "QFN, 64 Pin (https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf#page=57), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U10"
@@ -52580,13 +52628,13 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "f6f79d64-0a6a-4d3c-bd1a-2c44ae956759")
-		(at 150.8 66.25 90)
+		(at 150.815 67.65 90)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J4"
 			(at 0 -5.645 90)
 			(layer "F.SilkS")
-			(uuid "16e94691-cb2c-417f-aeee-cae5877ed57b")
+			(uuid "e168a492-a475-4707-af1c-725e6efc1be4")
 			(effects
 				(font
 					(size 1 1)
@@ -52597,7 +52645,7 @@
 		(property "Value" "TYPE-C-31-M-12"
 			(at 0 5.1 90)
 			(layer "F.Fab")
-			(uuid "12e948c0-22e6-47a9-b298-dd5f619f2bc2")
+			(uuid "34c495d8-8664-4a24-aab4-7f50f577b220")
 			(effects
 				(font
 					(size 1 1)
@@ -52610,7 +52658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d0ac4d6-6041-4f81-af21-a0ee7566a2be")
+			(uuid "fd96674b-cc3a-40df-a3db-8aa2b3df93cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52623,7 +52671,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "399d32ba-7eb0-417f-84d7-75b7f59f354a")
+			(uuid "5d949bca-670e-41a5-b0db-cfbf2ae31808")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55602,13 +55650,13 @@
 	(footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
 		(layer "B.Cu")
 		(uuid "951a67ed-a78a-493a-9660-03b1eedcaef2")
-		(at 150.8 66.065 180)
+		(at 150.84 67.65 180)
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J2"
 			(at 0 -5 180)
 			(layer "B.SilkS")
-			(uuid "c25a5821-3608-49b4-b76d-3583bfec0577")
+			(uuid "203badda-3363-4866-a182-29d87786daa3")
 			(effects
 				(font
 					(size 1 1)
@@ -55620,7 +55668,7 @@
 		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
 			(at 0 4.7 180)
 			(layer "B.Fab")
-			(uuid "942b8d70-d4d2-414d-a9c5-d5315f628dc5")
+			(uuid "53388a55-290d-47e4-a08c-a2a27e4a8f99")
 			(effects
 				(font
 					(size 1 1)
@@ -55634,7 +55682,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b4afd7d0-db62-4fc2-b8f6-6bb306708f9a")
+			(uuid "9b0918b0-1ddf-4f25-b2e4-bb67652dcf6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55648,7 +55696,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b53226d8-64c2-4637-8cdb-5faeaf287785")
+			(uuid "df881ccb-2d06-46a9-a100-bd271982c56b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55890,11 +55938,15 @@
 			)
 			(polygon
 				(pts
-					(xy 149.53 65.43) (xy 152.07 65.43) (xy 152.07 66.7) (xy 149.53 66.7)
+					(xy 149.57 67.015) (xy 152.11 67.015) (xy 152.11 68.285) (xy 149.57 68.285)
 				)
 			)
 		)
 		(embedded_fonts no)
+	)
+	(group ""
+		(uuid "46ba379d-37a1-4182-80a0-0b24670a8fe9")
+		(members "951a67ed-a78a-493a-9660-03b1eedcaef2" "f6f79d64-0a6a-4d3c-bd1a-2c44ae956759")
 	)
 	(embedded_fonts no)
 )
