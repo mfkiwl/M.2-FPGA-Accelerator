@@ -821,10 +821,6 @@
     [
       "e0bb63a6-1743-4d45-83e3-83dd5e1cd35c",
       "HDMI"
-    ],
-    [
-      "09aa8758-c80d-4d7c-89ed-08037b84af81",
-      "USB to UART"
     ]
   ],
   "text_variables": {}

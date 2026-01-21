@@ -183,48 +183,6 @@
 		(uuid "fcc303c3-3034-4ce3-8efe-2761c136bde4")
 	)
 	(sheet
-		(at 140.97 189.23)
-		(size 59.69 58.42)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "09aa8758-c80d-4d7c-89ed-08037b84af81")
-		(property "Sheetname" "USB to UART"
-			(at 140.97 188.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb-c.kicad_sch"
-			(at 140.97 248.2346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 69.85 52.07)
 		(size 59.69 58.42)
 		(exclude_from_sim no)
