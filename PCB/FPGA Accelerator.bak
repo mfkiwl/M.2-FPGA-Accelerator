@@ -2125,7 +2125,7 @@
 		(symbol "HDMI_D_1.4_0_0"
 			(polyline
 				(pts
-					(xy 0 16.51) (xy 0 18.034) (xy 0 17.272) (xy 1.905 17.272) (xy 1.905 18.034) (xy 1.905 16.51)
+					(xy 0 15.24) (xy 0 16.764) (xy 0 16.002) (xy 1.905 16.002) (xy 1.905 16.764) (xy 1.905 15.24)
 				)
 				(stroke
 					(width 0.635)
@@ -2137,8 +2137,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.667 18.034) (xy 4.318 18.034) (xy 4.572 17.78) (xy 4.572 16.764) (xy 4.318 16.51) (xy 2.667 16.51)
-					(xy 2.667 17.272)
+					(xy 2.667 16.764) (xy 4.318 16.764) (xy 4.572 16.51) (xy 4.572 15.494) (xy 4.318 15.24) (xy 2.667 15.24)
+					(xy 2.667 16.002)
 				)
 				(stroke
 					(width 0.635)
@@ -2150,7 +2150,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.128 16.51) (xy 8.128 18.034)
+					(xy 8.128 15.24) (xy 8.128 16.764)
 				)
 				(stroke
 					(width 0.635)
@@ -2164,7 +2164,7 @@
 		(symbol "HDMI_D_1.4_0_1"
 			(rectangle
 				(start -7.62 25.4)
-				(end 10.16 -25.4)
+				(end 10.16 -33.02)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2175,7 +2175,8 @@
 			)
 			(polyline
 				(pts
-					(xy 0 7.62) (xy 3.81 7.62) (xy 5.715 5.715) (xy 5.715 -5.715) (xy 3.81 -7.62) (xy 0 -7.62) (xy 0 7.62)
+					(xy 0 -3.81) (xy 3.81 -3.81) (xy 5.715 -5.715) (xy 5.715 -17.145) (xy 3.81 -19.05) (xy 0 -19.05)
+					(xy 0 -3.81)
 				)
 				(stroke
 					(width 0.635)
@@ -2187,8 +2188,8 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 6.35) (xy 3.175 6.35) (xy 3.81 5.715) (xy 3.81 -5.715) (xy 3.175 -6.35) (xy 1.905 -6.35)
-					(xy 1.905 5.715)
+					(xy 1.905 -5.08) (xy 3.175 -5.08) (xy 3.81 -5.715) (xy 3.81 -17.145) (xy 3.175 -17.78) (xy 1.905 -17.78)
+					(xy 1.905 -5.715)
 				)
 				(stroke
 					(width 0.254)
@@ -2200,8 +2201,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.334 16.51) (xy 5.334 18.034) (xy 6.35 18.034) (xy 6.35 16.51) (xy 6.35 18.034) (xy 7.112 18.034)
-					(xy 7.366 17.78) (xy 7.366 16.51)
+					(xy 5.334 15.24) (xy 5.334 16.764) (xy 6.35 16.764) (xy 6.35 15.24) (xy 6.35 16.764) (xy 7.112 16.764)
+					(xy 7.366 16.51) (xy 7.366 15.24)
 				)
 				(stroke
 					(width 0.635)
@@ -2215,168 +2216,6 @@
 		(symbol "HDMI_D_1.4_1_1"
 			(pin passive line
 				(at -10.16 20.32 0)
-				(length 2.54)
-				(name "D2+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 17.78 0)
-				(length 2.54)
-				(name "D2-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 15.24 0)
-				(length 2.54)
-				(name "D1+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 12.7 0)
-				(length 2.54)
-				(name "D1-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 10.16 0)
-				(length 2.54)
-				(name "D0+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 7.62 0)
-				(length 2.54)
-				(name "D0-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 5.08 0)
-				(length 2.54)
-				(name "CK+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "CK-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "CEC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -2394,7 +2233,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -10.16 0)
+				(at -10.16 17.78 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -2411,8 +2250,44 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -10.16 12.7 0)
+				(length 2.54)
+				(name "CEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
-				(at -10.16 -15.24 0)
+				(at -10.16 10.16 0)
+				(length 2.54)
+				(name "HPD/HEAC-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "UTILITY/HEAC+"
 					(effects
@@ -2430,16 +2305,142 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -17.78 0)
+				(at -10.16 0 0)
 				(length 2.54)
-				(name "HPD/HEAC-"
+				(name "D2+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "D2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "D1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -10.16 0)
+				(length 2.54)
+				(name "D1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -15.24 0)
+				(length 2.54)
+				(name "D0+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -17.78 0)
+				(length 2.54)
+				(name "D0-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -22.86 0)
+				(length 2.54)
+				(name "CK+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -25.4 0)
+				(length 2.54)
+				(name "CK-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2448,7 +2449,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -27.94 90)
+				(at -5.08 -35.56 90)
 				(length 2.54)
 				(name "D2S"
 					(effects
@@ -2466,7 +2467,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -27.94 90)
+				(at -2.54 -35.56 90)
 				(length 2.54)
 				(name "D1S"
 					(effects
@@ -2502,7 +2503,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -27.94 90)
+				(at 0 -35.56 90)
 				(length 2.54)
 				(name "D0S"
 					(effects
@@ -2520,7 +2521,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -27.94 90)
+				(at 2.54 -35.56 90)
 				(length 2.54)
 				(name "CKS"
 					(effects
@@ -2538,7 +2539,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -27.94 90)
+				(at 5.08 -35.56 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2556,7 +2557,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -27.94 90)
+				(at 7.62 -35.56 90)
 				(length 2.54)
 				(name "SH"
 					(effects

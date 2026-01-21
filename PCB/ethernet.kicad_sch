@@ -3124,6 +3124,343 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:MJ88-B011-HLSV6-P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MJ88-B011-HLSV6-P"
+				(at 0.254 32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:RJ45-SMD_MJ88-B011-HLSV6-P"
+				(at 0.254 29.464 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C501463"
+				(at 0.254 26.924 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MJ88-B011-HLSV6-P_0_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -5.08 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -3.81 5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.35) (xy -2.54 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.35) (xy 2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy -7.62 6.35) (xy -7.62 -3.81) (xy -5.08 -3.81) (xy -5.08 -5.08) (xy -3.81 -5.08)
+						(xy -3.81 -5.08) (xy -3.81 -6.35) (xy 1.27 -6.35) (xy 1.27 -5.08) (xy 2.54 -5.08) (xy 2.54 -3.81)
+						(xy 5.08 -3.81) (xy 5.08 6.35) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -15.24 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -15.24 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 12.7 270)
+					(length 2.54)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -15.24 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -15.24 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -15.24 90)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 12.7 270)
+					(length 2.54)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -15.24 90)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -15.24 90)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3359,16 +3696,6 @@
 	(bus_alias "JTAG"
 		(members "JTAG_TCK" "JTAG_TDI" "JTAG_TDO" "JTAG_TMS")
 	)
-	(text "rj45 recessed lcsc"
-		(exclude_from_sim no)
-		(at 286.766 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1e0f9190-4bdc-401e-9aaf-7585bddf0c33")
-	)
 	(text "100 Mbps, RMII Ethernet!"
 		(exclude_from_sim no)
 		(at 34.29 18.796 0)
@@ -3400,16 +3727,6 @@
 		)
 		(uuid "556934fa-6efe-498a-b443-641a08f0abad")
 	)
-	(text "https://jlcpcb.com/partdetail/HDGC-RJ45_DB101PWB/C2936176"
-		(exclude_from_sim no)
-		(at 308.102 187.452 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8bf28af7-ca5c-4fb4-9248-4af47a4ba045")
-	)
 	(text "< Internal pullup!"
 		(exclude_from_sim no)
 		(at 198.12 149.86 0)
@@ -3419,26 +3736,6 @@
 			)
 		)
 		(uuid "9d530768-62cb-44f3-87d4-1f53e9b42f00")
-	)
-	(text "https://jlcpcb.com/partdetail/Heling-MJ88_B011XRVS1/C501464"
-		(exclude_from_sim no)
-		(at 309.88 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c878fa34-2638-483d-b512-a45e4f8cd2ce")
-	)
-	(text "https://jlcpcb.com/partdetail/Heling-MJ88B_B011_RVL11P/C501462"
-		(exclude_from_sim no)
-		(at 308.864 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "da990e6c-8412-430d-860c-8939e444c852")
 	)
 	(text "< Driving the 3V3 analog rail"
 		(exclude_from_sim no)
@@ -8690,6 +8987,107 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/09aa8758-c80d-4d7c-89ed-08037b84af81"
 					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:MJ88-B011-HLSV6-P")
+		(at 313.69 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5bdbe81-5863-450a-ab99-986fbdd7ce3a")
+		(property "Reference" "J3"
+			(at 313.69 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MJ88-B011-HLSV6-P"
+			(at 313.69 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RJ45-SMD_MJ88-B011-HLSV6-P"
+			(at 343.154 214.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C501463"
+			(at 340.614 214.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "799c4a22-01b7-4081-b96e-5823ad6015a6")
+		)
+		(pin "4"
+			(uuid "ae9baaf6-baea-40d0-871e-eb1900b7c5c9")
+		)
+		(pin "1"
+			(uuid "502f4881-7d19-4211-a72f-26349d8af789")
+		)
+		(pin "7"
+			(uuid "ea63418d-0337-4fae-a2ae-0a3ec051a3da")
+		)
+		(pin "6"
+			(uuid "5ba6acd3-a384-4de1-836f-dbd7ced23fae")
+		)
+		(pin "9"
+			(uuid "3150acb9-2b7a-4c4b-ae1e-b86b5938d445")
+		)
+		(pin "2"
+			(uuid "af315591-3410-4309-83f2-68ba590c1f2c")
+		)
+		(pin "5"
+			(uuid "8d9f3a6c-9768-43eb-b721-ba393a4bb83b")
+		)
+		(pin "10"
+			(uuid "fd74a4a3-be5a-405c-ac9c-b25c1438e347")
+		)
+		(pin "3"
+			(uuid "9af4b19d-3d0c-4c61-937f-29a5ab009a40")
+		)
+		(instances
+			(project ""
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/09aa8758-c80d-4d7c-89ed-08037b84af81"
+					(reference "J3")
 					(unit 1)
 				)
 			)
