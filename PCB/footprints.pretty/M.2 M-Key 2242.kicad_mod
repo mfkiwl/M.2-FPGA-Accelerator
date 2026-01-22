@@ -750,6 +750,44 @@
 		(solder_mask_margin 0.1016)
 		(uuid "05c7bb2b-0922-4b6d-a3d9-9fe94a198001")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "90ab3164-74a0-4fbb-9d49-10bde6b2bf17")
+		(name "Keep Out")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -11 -4) (xy 11 -4) (xy 11 0) (xy -11 0)
+			)
+		)
+	)
 	(group ""
 		(uuid "df7d6e5f-e988-46d6-8ebc-7c0a8c9f870e")
 		(members "05c7bb2b-0922-4b6d-a3d9-9fe94a198001" "4a7f92e8-3804-45b9-a4c3-690a4f0b6a6b"
