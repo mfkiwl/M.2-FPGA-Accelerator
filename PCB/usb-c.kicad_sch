@@ -4266,7 +4266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86fef33-65e0-4e8a-9c85-1dacb34f1790")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 77.47 67.31 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 		(instances
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/17e1ff09-2cf2-4689-8892-3d8b79d81ef3"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
