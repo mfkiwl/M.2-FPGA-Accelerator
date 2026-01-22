@@ -9438,6 +9438,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "JTAG"
+		(members "JTAG_TDI" "JTAG_TDO" "JTAG_TMS" "JTAG_TCK")
+	)
 	(text "< Manual configuration reset, it's a devboard so why not"
 		(exclude_from_sim no)
 		(at 147.828 104.14 0)

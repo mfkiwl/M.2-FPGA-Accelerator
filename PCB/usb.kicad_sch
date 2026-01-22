@@ -2970,6 +2970,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "UART"
+		(members "UART_TXD" "UART_RXD")
+	)
 	(bus_alias "USB"
 		(members "USB_DM" "USB_DP")
 	)
