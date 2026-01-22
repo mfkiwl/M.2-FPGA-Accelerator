@@ -10105,17 +10105,6 @@
 		)
 		(uuid "905866fb-6e87-41fb-ac1a-ea53b17271ed")
 	)
-	(hierarchical_label "{EPHY}"
-		(shape bidirectional)
-		(at 400.05 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a80a8dc1-1982-4346-82f7-947abdace85d")
-	)
 	(hierarchical_label "{UART}"
 		(shape bidirectional)
 		(at 400.05 77.47 0)
