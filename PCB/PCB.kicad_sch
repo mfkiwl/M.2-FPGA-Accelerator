@@ -22,6 +22,17 @@
 		)
 		(uuid "61dd12d7-37f8-44ad-bf34-0e3d2dab678f")
 	)
+	(text "Reviews on:\n- Reddit\n- EEBlog\n- KiCad Discord\n- Slack"
+		(exclude_from_sim no)
+		(at 16.256 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f36cbdd5-4e03-404f-b3b9-c7905f24cba8")
+	)
 	(bus
 		(pts
 			(xy 233.68 175.26) (xy 233.68 189.23)
