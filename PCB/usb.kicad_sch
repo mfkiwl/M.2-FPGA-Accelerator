@@ -2987,16 +2987,6 @@
 		)
 		(uuid "52d5e54c-16b1-4b80-a22f-c1ea3e98b0ae")
 	)
-	(text "^ VCORE ^"
-		(exclude_from_sim no)
-		(at 140.97 140.716 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "eb41300b-2ce4-403d-8ed0-51693837d044")
-	)
 	(junction
 		(at 102.87 194.31)
 		(diameter 0)
@@ -7279,7 +7269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4u7"
 			(at 141.986 93.218 0)
 			(effects
 				(font
@@ -7288,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 141.9352 93.98 0)
 			(effects
 				(font
@@ -7702,7 +7692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "4u7"
 			(at 150.876 69.088 0)
 			(effects
 				(font
@@ -7711,7 +7701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 69.85 0)
 			(effects
 				(font
