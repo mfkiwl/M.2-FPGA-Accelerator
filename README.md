@@ -1,5 +1,5 @@
-# FPGA-Accelerator
+# M.2 FPGA Hardware Accelerator Devboard
 
-A low-cost, PCIe FPGA accelerator M.2 M-Key form factor devboard for hobbyists!
+This is my in-progress FPGA hardware accelerator! It'll essentially plug into an SSD slot on your computer, and function as a programmable FPGA fabric that you can use to practice hardware acceleration and other things in HDL! Not just that though, it also functions as a standalone devboard with USB to JTAG and HDMI and ontop of that, you can use it for hybrid purposes involving external devices AND your computer! 
 
-<img width="1081" height="795" alt="image" src="https://github.com/user-attachments/assets/ad84bede-6424-4fd2-8e1d-c16d5978793e" />
+<img width="2560" height="1406" alt="image" src="https://github.com/user-attachments/assets/728a1839-ae3f-40e4-bfd6-95fbe52d80bb" />
