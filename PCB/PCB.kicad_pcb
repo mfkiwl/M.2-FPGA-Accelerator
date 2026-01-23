@@ -14245,7 +14245,7 @@
 			(at 0 -2.86 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8767a99a-2c33-42cc-a735-a2aec51437c1")
+			(uuid "0d4bb44f-330f-4e86-8a27-96f13f37ace3")
 			(effects
 				(font
 					(size 1 1)
@@ -14256,7 +14256,7 @@
 		(property "Value" "100MHz"
 			(at 0 2.86 0)
 			(layer "F.Fab")
-			(uuid "6e752e7b-09d8-4061-985e-2c3700fbf68f")
+			(uuid "94dbe2df-6e3c-4a72-9041-b47590e68796")
 			(effects
 				(font
 					(size 1 1)
@@ -14268,7 +14268,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0eea8a99-fed8-4c4f-ad43-5cb082f7cd61")
+			(uuid "260d2103-2bf0-4a41-9c2a-02fd61f75520")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14280,7 +14280,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a786d75-9256-4446-8a3f-7311d832aa75")
+			(uuid "fd318785-5a81-4597-aecc-ea7e5b088089")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18453,13 +18453,13 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "4c6ddaa1-e233-401f-aca4-4348fd5c90e5")
-		(at 129.545 92.625)
+		(at 124.245 101.85)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C47"
-			(at 0 -1.05 0)
+			(at 0 -1.05 180)
 			(layer "F.SilkS")
-			(uuid "0c525fe1-5316-4f14-9c54-6177afe9606e")
+			(uuid "8a385ad6-c564-41e6-b601-6fa98a27cdca")
 			(effects
 				(font
 					(size 1 1)
@@ -18468,9 +18468,9 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 0 1.05 0)
+			(at 0 1.05 180)
 			(layer "F.Fab")
-			(uuid "2d1c9241-3264-4fc2-be2e-3c2d9d4c1c8f")
+			(uuid "ebe0e06c-3ca6-48d8-bbdb-d513ce7b03cf")
 			(effects
 				(font
 					(size 1 1)
@@ -18479,10 +18479,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4447fca4-a7c7-4c66-8da5-90dc2812e707")
+			(uuid "d5081362-853c-4f71-9f6a-8637a247e555")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18491,10 +18491,10 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d22472c5-d048-4c9e-97ab-521b8116bfdd")
+			(uuid "8eeb2391-f9cb-4e7b-9240-8bc7254d4214")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18588,7 +18588,7 @@
 			(uuid "f1e9c7a3-100b-45a0-88a1-25a7e74aaa15")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 180)
 			(layer "F.Fab")
 			(uuid "909ca8dd-e281-4863-9d3a-70a73a326141")
 			(effects
@@ -20496,13 +20496,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5aebc8c5-bb95-43bd-9ce8-fde9821d451f")
-		(at 130.025 82.595 -90)
+		(at 126.3 82.725 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C139"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "2e3be058-833e-45c3-acdb-099e2f63575e")
+			(uuid "5abaa616-5199-4dd3-abb5-9c136a105a8f")
 			(effects
 				(font
 					(size 1 1)
@@ -20513,7 +20513,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "d8cbff2c-916a-4e5f-aa27-dc6351b1b40c")
+			(uuid "4a0d2bef-5a93-468f-ae34-0ef130c84b41")
 			(effects
 				(font
 					(size 1 1)
@@ -20525,7 +20525,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04ee6bf2-decb-4645-8486-4c8115b7d69f")
+			(uuid "da19a775-85f6-438e-8413-9efa6d61900f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20537,7 +20537,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30b97199-2b26-4390-8cc7-f53dded6634a")
+			(uuid "f2d9e0f5-9734-4ded-814d-620e44ced555")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47277,7 +47277,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1efdc59e-7d87-455c-8200-6ff39eec2bdd")
+			(uuid "a6448337-a829-44ae-ba51-13ad1f436b1d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.step"
