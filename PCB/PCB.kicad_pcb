@@ -1057,7 +1057,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_DRT-3"
 		(layer "F.Cu")
 		(uuid "03db9f74-87f5-4174-99a8-db824c9c6ecc")
-		(at 144.75 68.225 -90)
+		(at 144.75 67.85 -90)
 		(descr "Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf")
 		(tags "DRT-3 1x0.8mm Pitch 0.7mm")
 		(property "Reference" "U3"
@@ -16786,7 +16786,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "487e83b2-c0d8-4573-8fca-50459dd57344")
-		(at 143.95 69.6 180)
+		(at 143.95 69.225 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R55"
@@ -30011,7 +30011,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b7b06726-1a92-45be-951d-d433e1b3c60f")
-		(at 143.75 71.6 -90)
+		(at 143.75 71.27 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C101"
@@ -34719,14 +34719,14 @@
 	(footprint "Package_BGA:Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm"
 		(layer "F.Cu")
 		(uuid "d96d8126-f8de-487d-a2fd-d10232f2c79a")
-		(at 147.6 78.1 90)
+		(at 147.475 77.875 90)
 		(descr "FBGA-96, 8.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28")
 		(tags "BGA 96 0.8 DDR3 DDR3L DDR4")
 		(property "Reference" "U11"
 			(at 0 -8 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a1afc364-21e4-4806-aafa-fc44a662fe89")
+			(uuid "56f11550-d361-4a9b-b298-826ee41c7967")
 			(effects
 				(font
 					(size 1 1)
@@ -34737,7 +34737,7 @@
 		(property "Value" "MT41J128M16JT-125:K"
 			(at 0 8 90)
 			(layer "F.Fab")
-			(uuid "29a51fba-7b5e-4d1a-b7da-12c25c53e526")
+			(uuid "a2653d1b-3fa3-4819-8ede-d9941b28c6b4")
 			(effects
 				(font
 					(size 1 1)
@@ -34749,7 +34749,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13096089-ee62-4c00-9566-18884598d5c9")
+			(uuid "22474f73-8502-4e83-8f7c-e435ff68af42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34761,7 +34761,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46f6ddd4-c52a-42e3-9be8-38465f97033a")
+			(uuid "5beef0d2-1c32-45c2-9dad-9e65268cef55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38738,7 +38738,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "f6f79d64-0a6a-4d3c-bd1a-2c44ae956759")
-		(at 150.815 67.65 90)
+		(at 150.82 67.43 90)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J4"
@@ -55159,7 +55159,7 @@
 	(footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
 		(layer "B.Cu")
 		(uuid "951a67ed-a78a-493a-9660-03b1eedcaef2")
-		(at 150.84 67.65 180)
+		(at 150.845 67.43 180)
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J2"
@@ -55448,7 +55448,7 @@
 			)
 			(polygon
 				(pts
-					(xy 149.57 67.015) (xy 152.11 67.015) (xy 152.11 68.285) (xy 149.57 68.285)
+					(xy 149.575 66.795) (xy 152.115 66.795) (xy 152.115 68.065) (xy 149.575 68.065)
 				)
 			)
 		)
