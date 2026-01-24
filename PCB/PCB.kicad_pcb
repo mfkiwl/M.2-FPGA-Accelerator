@@ -40987,6 +40987,7 @@
 		(property "Reference" "C36"
 			(at 0 1.05 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d5584441-d928-437c-8b5b-c35d98634490")
 			(effects
 				(font
@@ -45237,6 +45238,7 @@
 		(property "Reference" "C38"
 			(at 0 1.05 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ab94729b-14d0-411e-a53c-3326e20efae6")
 			(effects
 				(font
@@ -54349,6 +54351,7 @@
 		(property "Reference" "C40"
 			(at 0 1.43 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7796f0ae-25ef-4297-a50f-e96fe2da80b0")
 			(effects
 				(font
@@ -58823,6 +58826,7 @@
 		(property "Reference" "C39"
 			(at 0 1.05 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "39399189-6109-4162-8cdd-085ffe7c30d2")
 			(effects
 				(font
@@ -60842,6 +60846,7 @@
 		(property "Reference" "C37"
 			(at 0 1.43 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ac30a955-feb0-444b-979b-b439d200b5d8")
 			(effects
 				(font
@@ -65504,6 +65509,7 @@
 		(property "Reference" "C35"
 			(at 0 1.05 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bec62aff-aeb6-4c42-9973-cf891ebb79ac")
 			(effects
 				(font
@@ -69155,12 +69161,12 @@
 		(uuid "004530d5-0404-4a08-a6f4-0a9be961bae2")
 	)
 	(segment
-		(start 146.25 107)
-		(end 145.75 107.5)
+		(start 145.75 107.5)
+		(end 146.25 107)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "3c0a8e5b-94bc-4a6f-bdf4-fa06b62cbd00")
+		(uuid "2728f741-f24f-489c-b67d-25adc2886c54")
 	)
 	(segment
 		(start 144.25 107)
@@ -69218,6 +69224,14 @@
 		(net 19)
 		(uuid "d95c83ac-668e-449e-be93-35d5c0d5ad99")
 	)
+	(via
+		(at 146.7625 106.4875)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 19)
+		(uuid "ec9689e5-0c1c-4820-aa02-e6954f417c15")
+	)
 	(segment
 		(start 150.98 106.68)
 		(end 150.775 106.475)
@@ -69225,6 +69239,14 @@
 		(layer "B.Cu")
 		(net 19)
 		(uuid "01c9d2db-5799-4bcb-8c70-f85bdd051404")
+	)
+	(segment
+		(start 146.7625 107.2125)
+		(end 146.725 107.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "32a3552f-af1d-4502-9297-0c9752e907a2")
 	)
 	(segment
 		(start 143.57 107.32)
@@ -69241,6 +69263,14 @@
 		(layer "B.Cu")
 		(net 19)
 		(uuid "7f536235-818a-43e3-98d3-15507aba98d5")
+	)
+	(segment
+		(start 146.7625 106.4875)
+		(end 146.7625 107.2125)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "8647990d-836f-4719-ac52-c8163c512773")
 	)
 	(segment
 		(start 151.5 106.68)
