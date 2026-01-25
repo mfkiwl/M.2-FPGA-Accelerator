@@ -188,6 +188,8 @@
       ],
       "track_widths": [
         0.0,
+        0.1184,
+        0.1862,
         0.4,
         0.5
       ],
@@ -501,7 +503,8 @@
         "name": "DDR3_ADDRESS",
         "pcb_color": "rgb(87, 72, 255)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1184
       },
       {
         "name": "DDR3_CLOCK",
@@ -513,13 +516,15 @@
         "name": "DDR3_COMMAND",
         "pcb_color": "rgb(105, 173, 255)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1184
       },
       {
         "name": "DDR3_DATA",
         "pcb_color": "rgb(209, 87, 255)",
         "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1184
       },
       {
         "name": "EPHY_MDI",
