@@ -11,7 +11,7 @@
 		(title "M.2 FPGA Hardware Accelerator Devboard")
 		(company "Kai Pereira")
 		(comment 1 "https://github.com/KaiPereira/M.2-FPGA-Accelerator")
-		(comment 3 "JLC06081H-1080A")
+		(comment 3 "JLC06081H-2116")
 		(comment 4 "0.8mm PCB")
 	)
 	(layers
