@@ -616,6 +616,10 @@
       {
         "netclass": "EPHY_RMII",
         "pattern": "*PHY_TXD*"
+      },
+      {
+        "netclass": "DDR3_COMMAND",
+        "pattern": "*~{DDR*"
       }
     ]
   },
