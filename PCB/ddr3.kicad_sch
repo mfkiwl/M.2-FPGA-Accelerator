@@ -7085,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm"
+		(property "Footprint" "FPGA:FBGA-96_8x14mm_Layout9x16_P0.8mm"
 			(at 116.84 213.614 0)
 			(effects
 				(font
@@ -9927,7 +9927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm"
+		(property "Footprint" "FPGA:FBGA-96_8x14mm_Layout9x16_P0.8mm"
 			(at 283.21 186.944 0)
 			(effects
 				(font

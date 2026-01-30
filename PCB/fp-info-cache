@@ -1,4 +1,4 @@
-26323618478534501
+26327158102009031
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59626,6 +59626,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 FPGA
+FBGA-96_8x14mm_Layout9x16_P0.8mm
+FBGA-96, 8.0x14.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, generalized from https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28
+BGA 96 0.8 DDR3 DDR3L DDR4
+0
+96
+96
+FPGA
 M.2 M-Key 2242
 
 
@@ -104306,6 +104313,13 @@ BGA-478_L13.9-W13.9_RK3562
 0
 478
 478
+easyeda2kicad
+FBGA-96_L14.0-W8.0-R16-C6-P0.80-TL
+
+
+0
+96
+96
 easyeda2kicad
 FPC-SMD_AFC07-S24FCA-00
 
