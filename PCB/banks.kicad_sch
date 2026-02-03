@@ -9778,10 +9778,6 @@
 		(uuid "1cc14376-bfb1-42d3-ae93-3bc00c4f5ed8")
 	)
 	(no_connect
-		(at 702.31 102.87)
-		(uuid "2b84d2e2-3b38-4053-af9a-1ed8e362db37")
-	)
-	(no_connect
 		(at 261.62 209.55)
 		(uuid "84edecb5-b08b-45c6-aa67-6a1fe7b011cb")
 	)
@@ -9792,10 +9788,6 @@
 	(no_connect
 		(at 261.62 212.09)
 		(uuid "a61a4af3-4807-4233-8e88-3a1bf29c1502")
-	)
-	(no_connect
-		(at 702.31 156.21)
-		(uuid "a63d1053-6dba-4d6b-9455-79976c1671ed")
 	)
 	(no_connect
 		(at 702.31 214.63)
@@ -9816,10 +9808,6 @@
 	(no_connect
 		(at 702.31 161.29)
 		(uuid "f0436149-1ef3-43ca-a45a-3c1677c16d88")
-	)
-	(no_connect
-		(at 702.31 100.33)
-		(uuid "f4ab5533-1689-4b17-89ee-d5eb0e1f1e42")
 	)
 	(no_connect
 		(at 127 113.03)
@@ -9931,6 +9919,15 @@
 			(type default)
 		)
 		(uuid "2391b0e2-1c6a-4314-b89c-83238f6855e2")
+	)
+	(bus_entry
+		(at 647.7 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258f670e-eb02-471d-bdac-399ec0a6d66a")
 	)
 	(bus_entry
 		(at 622.3 168.91)
@@ -10149,6 +10146,15 @@
 		(uuid "a09a1d06-022d-45e7-95c8-bc646f693525")
 	)
 	(bus_entry
+		(at 674.37 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86467f8-7333-4ca3-8471-64a1fa1c73b2")
+	)
+	(bus_entry
 		(at 622.3 179.07)
 		(size 2.54 2.54)
 		(stroke
@@ -10264,6 +10270,15 @@
 			(type default)
 		)
 		(uuid "e85967f9-9631-4ae1-963b-1eba2f52e681")
+	)
+	(bus_entry
+		(at 674.37 102.87)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91c85fa-eafd-4bfc-beba-978ee36ce54c")
 	)
 	(bus_entry
 		(at 674.37 87.63)
@@ -10852,7 +10867,7 @@
 	)
 	(bus
 		(pts
-			(xy 674.37 95.25) (xy 674.37 102.87)
+			(xy 674.37 95.25) (xy 674.37 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12160,6 +12175,16 @@
 		)
 		(uuid "7e5d3c1f-0b95-443e-a1d4-ee45d1de1e6f")
 	)
+	(bus
+		(pts
+			(xy 647.7 153.67) (xy 647.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efd1411-54b7-48f6-95e5-f1d097fd1366")
+	)
 	(wire
 		(pts
 			(xy 133.35 49.53) (xy 133.35 52.07)
@@ -12472,6 +12497,16 @@
 	)
 	(wire
 		(pts
+			(xy 650.24 156.21) (xy 702.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f54aba-42ae-4e09-a3f1-f2b3f766febd")
+	)
+	(wire
+		(pts
 			(xy 125.73 49.53) (xy 125.73 52.07)
 		)
 		(stroke
@@ -12532,7 +12567,7 @@
 	)
 	(bus
 		(pts
-			(xy 647.7 128.27) (xy 647.7 165.1)
+			(xy 647.7 128.27) (xy 647.7 153.67)
 		)
 		(stroke
 			(width 0)
@@ -13222,6 +13257,16 @@
 	)
 	(wire
 		(pts
+			(xy 676.91 102.87) (xy 702.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1afeace-b776-4b96-8907-b17ea272930a")
+	)
+	(wire
+		(pts
 			(xy 281.94 68.58) (xy 281.94 69.85)
 		)
 		(stroke
@@ -13559,6 +13604,16 @@
 			(type default)
 		)
 		(uuid "d6542fb7-c359-47d8-9fb7-5ab9b649dbe6")
+	)
+	(bus
+		(pts
+			(xy 674.37 100.33) (xy 674.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b1baac-1352-4ecd-b4ec-0bda4a17cac2")
 	)
 	(wire
 		(pts
@@ -14320,6 +14375,16 @@
 		)
 		(uuid "1b26c170-72ef-4ce8-bc98-35ade145e699")
 	)
+	(label "~{DDR_RAS}"
+		(at 662.94 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e9634b0-8fd3-4c32-b7dd-89856595e8f6")
+	)
 	(label "DDR_DQS1+"
 		(at 638.81 133.35 180)
 		(effects
@@ -14570,16 +14635,6 @@
 		)
 		(uuid "8f7b84ea-aecd-4322-abe9-2852a46b3957")
 	)
-	(label "DDR_A9"
-		(at 687.07 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "93cf718f-c6ef-4c0e-b59d-89ab4c829c0b")
-	)
 	(label "~{PCIe_PEWAKE}"
 		(at 175.26 168.91 180)
 		(effects
@@ -14619,6 +14674,16 @@
 			(justify right bottom)
 		)
 		(uuid "b58898c5-5a1b-48ca-be66-7f691c9792f2")
+	)
+	(label "DDR_A8"
+		(at 687.07 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b76d802f-3d8e-4384-b596-e5635ba7c111")
 	)
 	(label "DDR_DQ4"
 		(at 638.81 186.69 180)
@@ -14810,6 +14875,16 @@
 		)
 		(uuid "f97d9d25-b00f-403e-81ac-cadd37b883bc")
 	)
+	(label "DDR_A9"
+		(at 687.07 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffd30ea5-85e3-4fde-be98-77896bcb7fb8")
+	)
 	(hierarchical_label "{PCIe_COMMAND}"
 		(shape bidirectional)
 		(at 182.88 154.94 0)
@@ -14923,6 +14998,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 741.68 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14930,7 +15006,7 @@
 		(dnp no)
 		(uuid "06e8eab2-6204-4605-961f-7fc2b41b2c15")
 		(property "Reference" "C154"
-			(at 742.696 52.832 0)
+			(at 740.664 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14939,7 +15015,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 742.696 58.928 0)
+			(at 740.664 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14948,7 +15024,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 742.6452 59.69 0)
+			(at 740.7148 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
