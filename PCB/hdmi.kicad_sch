@@ -2447,6 +2447,16 @@
 			"HDMI_D1+" "HDMI_D1-" "HDMI_D0+" "HDMI_D0-" "HDMI_CLK+" "HDMI_CLK-"
 		)
 	)
+	(text "BOOST CONVERTER TO 5V??? JLC: \"boost 5V\", QX2303L50E maybe"
+		(exclude_from_sim no)
+		(at 124.206 36.576 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5877634c-dd05-42da-8383-909e24e348fc")
+	)
 	(text "Current limit resistor!"
 		(exclude_from_sim no)
 		(at 243.84 85.344 0)
