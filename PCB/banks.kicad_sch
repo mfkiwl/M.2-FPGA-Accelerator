@@ -9062,6 +9062,16 @@
 		)
 		(uuid "642ab1dc-c71a-405e-b8e7-ccce4420b38f")
 	)
+	(text "Sus A14 >"
+		(exclude_from_sim no)
+		(at 607.568 122.682 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6808caa2-1e51-4769-8d8c-eb7829161dc3")
+	)
 	(text "Wait for rails before starting the crystal! >"
 		(exclude_from_sim no)
 		(at 50.546 263.398 0)
@@ -9766,10 +9776,6 @@
 		(uuid "ff54d88e-96ec-4768-8434-60200a5f367d")
 	)
 	(no_connect
-		(at 702.31 153.67)
-		(uuid "065eb4a8-ee9c-4da7-9ef4-cacf11e10fa7")
-	)
-	(no_connect
 		(at 260.35 166.37)
 		(uuid "0f004d5c-15f8-4907-b0f9-861dadfac48e")
 	)
@@ -9792,6 +9798,10 @@
 	(no_connect
 		(at 702.31 214.63)
 		(uuid "a66df277-95e9-44e3-a0c1-570c26fb84c9")
+	)
+	(no_connect
+		(at 702.31 100.33)
+		(uuid "b559a5c2-7d57-4653-8838-fbfa64e9920d")
 	)
 	(no_connect
 		(at 127 105.41)
@@ -9921,7 +9931,7 @@
 		(uuid "2391b0e2-1c6a-4314-b89c-83238f6855e2")
 	)
 	(bus_entry
-		(at 647.7 153.67)
+		(at 647.7 154.94)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -10036,6 +10046,15 @@
 			(type default)
 		)
 		(uuid "5b0e6ec1-aa8d-4a43-ab5c-8fd6882e1ce1")
+	)
+	(bus_entry
+		(at 622.3 151.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f164f3f-847d-4aa8-86b2-5f85a54dd388")
 	)
 	(bus_entry
 		(at 622.3 171.45)
@@ -10216,15 +10235,6 @@
 			(type default)
 		)
 		(uuid "d7c6cf91-30d8-4f35-ae01-758537c74b54")
-	)
-	(bus_entry
-		(at 817.88 207.01)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db02405a-4b48-4980-9d6b-89e5a8970a5d")
 	)
 	(bus_entry
 		(at 622.3 189.23)
@@ -11307,16 +11317,6 @@
 	)
 	(wire
 		(pts
-			(xy 803.91 209.55) (xy 815.34 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467f5684-c228-4607-bdd3-4bc5ade046cc")
-	)
-	(wire
-		(pts
 			(xy 156.21 62.23) (xy 156.21 59.69)
 		)
 		(stroke
@@ -11437,16 +11437,6 @@
 	)
 	(bus
 		(pts
-			(xy 824.23 207.01) (xy 817.88 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e38efa0-7b28-48d4-8d56-0b64c8ad9bd2")
-	)
-	(bus
-		(pts
 			(xy 647.7 118.11) (xy 647.7 125.73)
 		)
 		(stroke
@@ -11557,7 +11547,7 @@
 	)
 	(bus
 		(pts
-			(xy 622.3 146.05) (xy 622.3 156.21)
+			(xy 622.3 146.05) (xy 622.3 151.13)
 		)
 		(stroke
 			(width 0)
@@ -12177,7 +12167,7 @@
 	)
 	(bus
 		(pts
-			(xy 647.7 153.67) (xy 647.7 165.1)
+			(xy 647.7 154.94) (xy 647.7 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12497,7 +12487,7 @@
 	)
 	(wire
 		(pts
-			(xy 650.24 156.21) (xy 702.31 156.21)
+			(xy 650.24 157.48) (xy 651.51 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12567,7 +12557,7 @@
 	)
 	(bus
 		(pts
-			(xy 647.7 128.27) (xy 647.7 153.67)
+			(xy 647.7 128.27) (xy 647.7 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12747,6 +12737,16 @@
 	)
 	(wire
 		(pts
+			(xy 651.51 156.21) (xy 702.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28a431b-5205-449b-aaf8-89988ce64ca3")
+	)
+	(wire
+		(pts
 			(xy 350.52 68.58) (xy 350.52 69.85)
 		)
 		(stroke
@@ -12784,6 +12784,16 @@
 			(type default)
 		)
 		(uuid "a504c85d-f3aa-4a9a-bc8b-2faeadad7ca0")
+	)
+	(wire
+		(pts
+			(xy 651.51 157.48) (xy 651.51 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a544a32e-3c26-438b-ba0a-500da843d8f0")
 	)
 	(wire
 		(pts
@@ -13084,6 +13094,16 @@
 			(type default)
 		)
 		(uuid "b75bc091-b5d9-4bf9-afb2-14b836fb3d84")
+	)
+	(wire
+		(pts
+			(xy 624.84 153.67) (xy 702.31 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b776cb7a-5dde-4ff7-bbf6-876eb67e64d3")
 	)
 	(wire
 		(pts
@@ -13717,6 +13737,16 @@
 	)
 	(bus
 		(pts
+			(xy 622.3 151.13) (xy 622.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc71dd34-d4b8-4af6-88ce-b8a5e409cbe5")
+	)
+	(bus
+		(pts
 			(xy 179.07 166.37) (xy 179.07 168.91)
 		)
 		(stroke
@@ -14105,16 +14135,6 @@
 		)
 		(uuid "f70d3f3b-5785-4e96-a93a-95658dd21bf6")
 	)
-	(bus
-		(pts
-			(xy 817.88 207.01) (xy 817.88 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7644a76-4af0-4f9e-97ef-44adf1355689")
-	)
 	(wire
 		(pts
 			(xy 340.36 49.53) (xy 346.71 49.53)
@@ -14324,6 +14344,16 @@
 			(type default)
 		)
 		(uuid "ff7edcc0-796e-4b5e-9896-fc1f0ef1e644")
+	)
+	(label "DDR_DQ1"
+		(at 638.81 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01dd300c-8eaa-4ccf-a210-77c9af239e44")
 	)
 	(label "QSPI_DQ3"
 		(at 140.97 100.33 180)
@@ -14795,16 +14825,6 @@
 		)
 		(uuid "d4f48988-c5ff-40eb-97ca-36314a5184cb")
 	)
-	(label "DDR_DQ1"
-		(at 805.18 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfe6b6be-7fa4-48d2-8281-a871e0f08431")
-	)
 	(label "~{PCIe_CLKREQ}"
 		(at 175.26 163.83 180)
 		(effects
@@ -14928,17 +14948,6 @@
 			(justify left)
 		)
 		(uuid "77ee0bcb-d5b6-424a-a11b-fca55a23500b")
-	)
-	(hierarchical_label "{DDR_DATA}"
-		(shape bidirectional)
-		(at 824.23 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c6847e9-d8d3-4148-bbe3-0c5183947264")
 	)
 	(hierarchical_label "{DDR_ADDRESS}"
 		(shape bidirectional)
