@@ -2963,6 +2963,10 @@
 		(color 0 0 0 0)
 		(uuid "fe5a740e-0def-4c11-9c4e-35e04abda143")
 	)
+	(no_connect
+		(at 101.6 152.4)
+		(uuid "8f97ac9d-eb7b-4558-be4f-02130f925770")
+	)
 	(bus_entry
 		(at 62.23 198.12)
 		(size -2.54 -2.54)
@@ -3315,15 +3319,6 @@
 		(uuid "b6a5efe6-2867-49e1-bc4d-b17c4443e77f")
 	)
 	(bus_entry
-		(at 67.31 152.4)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb76080b-c837-411d-86f6-fa5e9082277e")
-	)
-	(bus_entry
 		(at 146.05 154.94)
 		(size 2.54 -2.54)
 		(stroke
@@ -3617,7 +3612,7 @@
 	)
 	(bus
 		(pts
-			(xy 64.77 156.21) (xy 64.77 149.86)
+			(xy 64.77 147.32) (xy 64.77 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5987,16 +5982,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 152.4) (xy 101.6 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38bdd17-ee0d-4cfe-9133-09459e2cde8f")
-	)
-	(wire
-		(pts
 			(xy 359.41 130.81) (xy 350.52 130.81)
 		)
 		(stroke
@@ -6204,16 +6189,6 @@
 			(type default)
 		)
 		(uuid "e4ed39cc-3d62-40bf-9749-30a858226361")
-	)
-	(bus
-		(pts
-			(xy 64.77 149.86) (xy 64.77 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e536b0b7-dd95-4c94-9f49-143f86cffb15")
 	)
 	(wire
 		(pts
@@ -6954,16 +6929,6 @@
 			(justify right bottom)
 		)
 		(uuid "ce956d69-2fa7-443a-9121-9411c73af982")
-	)
-	(label "DDR_A14"
-		(at 67.31 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d36886da-ad3b-4686-8932-13b9243d2145")
 	)
 	(label "DDR_BA0"
 		(at 67.31 158.75 0)
