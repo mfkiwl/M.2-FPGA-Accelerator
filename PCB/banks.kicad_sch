@@ -14647,16 +14647,6 @@
 		)
 		(uuid "2cf86f37-e596-4897-87da-f9fe75650fe5")
 	)
-	(label "DDR_DQ2"
-		(at 702.31 191.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d59779c-9d47-4ed7-9369-945d1852804a")
-	)
 	(label "DDR_DQS1+"
 		(at 702.31 194.31 180)
 		(effects
@@ -14797,16 +14787,6 @@
 		)
 		(uuid "5c7cddc7-bb70-4f59-9f25-5eab01c89cc8")
 	)
-	(label "DDR_DQ13"
-		(at 702.31 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6039ec03-195a-47bc-b88d-24b666105655")
-	)
 	(label "DDR_A8"
 		(at 702.31 105.41 180)
 		(effects
@@ -14927,6 +14907,16 @@
 		)
 		(uuid "a1116450-bbf5-4587-b837-3f2e1c79df9c")
 	)
+	(label "DDR_DQ13"
+		(at 702.31 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a24b9876-d39d-475a-94ee-52e8efb72a58")
+	)
 	(label "DDR_A9"
 		(at 702.31 125.73 180)
 		(effects
@@ -15006,6 +14996,16 @@
 			(justify right bottom)
 		)
 		(uuid "ceb7a3c8-90ce-431b-bddf-5ed3abfb7e61")
+	)
+	(label "DDR_DQ2"
+		(at 702.31 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2c85507-4798-4d6e-b9c6-ed3d4881ed34")
 	)
 	(label "QSPI_DQ0"
 		(at 140.97 92.71 180)
