@@ -1,0 +1,1 @@
+ERROR : Address ports can be allocated to non memory byte group pins (not in T0, T1, T2, or T3) if and only if its adjacent byte is non Data byte group (i.e either Address/Control or empty) and it should contain at least one unallocated pin or allocated with memory clock pair. Refer to UG586 and AR# 45588 for more information.
