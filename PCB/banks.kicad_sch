@@ -14577,16 +14577,6 @@
 		)
 		(uuid "0129d67f-df35-41aa-b1f0-7dc3d8abbd3c")
 	)
-	(label "DDR_DQ3"
-		(at 702.31 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01bef5fe-7719-49d6-a75e-c1a6105db856")
-	)
 	(label "DDR_DQM1"
 		(at 702.31 184.15 180)
 		(effects
@@ -14667,6 +14657,16 @@
 		)
 		(uuid "2cf86f37-e596-4897-87da-f9fe75650fe5")
 	)
+	(label "DDR_DQ3"
+		(at 702.31 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3012202e-8a18-4cb7-bb60-b2cb60f9fc1e")
+	)
 	(label "DDR_DQS1+"
 		(at 702.31 194.31 180)
 		(effects
@@ -14686,16 +14686,6 @@
 			(justify right bottom)
 		)
 		(uuid "30da1d34-b9ca-474b-867f-0cad7e3666ad")
-	)
-	(label "DDR_DQM0"
-		(at 702.31 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "319ab899-af8f-4396-b9ab-251f43f82769")
 	)
 	(label "DDR_A6"
 		(at 702.31 92.71 180)
@@ -14796,6 +14786,16 @@
 			(justify right bottom)
 		)
 		(uuid "5c7cddc7-bb70-4f59-9f25-5eab01c89cc8")
+	)
+	(label "DDR_DQM0"
+		(at 702.31 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "605cc916-a49a-4fad-be5a-50b217c88a22")
 	)
 	(label "DDR_A8"
 		(at 702.31 105.41 180)
