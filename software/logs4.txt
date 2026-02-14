@@ -1,0 +1,2 @@
+ERROR : Memory data and address ports cannot be allocated in the same FPGA byte group. Ports "ddr3_dm[1],ddr3_dq[11],ddr3_dq[13],ddr3_dq[14],ddr3_dqs_p[1],ddr3_dqs_n[1],ddr3_dq[15],ddr3_dq[9],ddr3_dq[10],ddr3_dq[8],ddr3_ba[2],ddr3_dq[12]" cannot be allocated in the same FPGA byte group 3 of bank 34.
+INFO : Cannot verify further unless the existing errors are resolved.
