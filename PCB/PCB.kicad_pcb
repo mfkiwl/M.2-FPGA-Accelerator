@@ -98936,14 +98936,6 @@
 		(uuid "fb0293ab-71c3-4ff1-98b3-7ded3a19f27c")
 	)
 	(segment
-		(start 138.8 78.48)
-		(end 140.015 77.265)
-		(width 0.1)
-		(layer "In2.Cu")
-		(net "/Artix 7 Banks/DDR_DQ14")
-		(uuid "26c3ae7e-6abc-4317-81de-cd7bb16757ff")
-	)
-	(segment
 		(start 146.25 90)
 		(end 145.75 90.5)
 		(width 0.1862)
