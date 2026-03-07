@@ -9265,9 +9265,9 @@
 		)
 		(uuid "0abbbdf1-1468-461b-9391-baadbe158903")
 	)
-	(text "Decoupling before and after bead for high current rail!"
+	(text "Remember to model pi filter!"
 		(exclude_from_sim no)
-		(at 107.95 224.79 0)
+		(at 106.934 222.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
