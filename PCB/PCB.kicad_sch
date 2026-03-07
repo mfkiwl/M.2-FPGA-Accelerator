@@ -11,27 +11,45 @@
 		(comment 1 "https://github.com/KaiPereira/M.2-FPGA-Accelerator")
 	)
 	(lib_symbols)
-	(text "For a production board: \n- make R8, R6, R35 and R33, 0402 and exact!\n- make 47nF caps 0402"
+	(text_box "For a production board: \n- make R8, R6, R35 and R33, 0402 and exact!\n- make 47nF caps 0402"
 		(exclude_from_sim no)
-		(at 16.256 18.542 0)
+		(at 25.4 27.94 0)
+		(size 49.53 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "61dd12d7-37f8-44ad-bf34-0e3d2dab678f")
+		(uuid "248b2e25-4ef6-4225-ba3f-2bd5f0a80f42")
 	)
-	(text "Reviews on:\n- Reddit\n- EEBlog\n- KiCad Discord\n- Slack"
+	(text_box "Reviews on:\n- Reddit\n- EEBlog\n- KiCad Discord\n- Slack"
 		(exclude_from_sim no)
-		(at 16.256 30.734 0)
+		(at 25.4 39.37 0)
+		(size 20.32 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f36cbdd5-4e03-404f-b3b9-c7905f24cba8")
+		(uuid "a19e32be-62e8-4ce7-bd9e-d28ecf92c90d")
 	)
 	(bus
 		(pts

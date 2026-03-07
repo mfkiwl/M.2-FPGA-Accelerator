@@ -2491,6 +2491,25 @@
 		)
 		(uuid "deaece7b-0c72-4aa1-b07f-4f91b53e4787")
 	)
+	(text_box "100nF per pin and then a 47u and 4u7 cap for bulk and to minimize space!\n\nIt's honestly a bad layout on the board because the caps are only on one side, but it's fine :/"
+		(exclude_from_sim no)
+		(at 257.81 86.36 0)
+		(size 50.8 14.6668)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "099e1f5e-cc43-40fa-8d85-e2017b5aa319")
+	)
 	(junction
 		(at 266.7 135.89)
 		(diameter 0)
@@ -7669,93 +7688,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ecf926b-bb9b-4a23-a0f5-d90f31c64dd2")
-		(property "Reference" "C75"
-			(at 177.546 121.412 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 177.546 127.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 177.4952 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b6fefa2b-68c0-4ce7-9e3e-0c1183cac53f")
-		)
-		(pin "1"
-			(uuid "7bf379ae-d288-4ad2-afe2-6c827df26c57")
-		)
-		(instances
-			(project "ddr3"
-				(path "/47cc638a-6164-4ecb-9ed3-6d7634f22358"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "PCB"
-				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/95cb9219-15bb-49aa-939c-f3c0ddd8f386"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 256.54 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -11862,6 +11794,87 @@
 			(project "PCB"
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/95cb9219-15bb-49aa-939c-f3c0ddd8f386"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdf1b8a3-d652-4b11-880b-b5e5c30c2b3c")
+		(property "Reference" "C75"
+			(at 177.546 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 177.546 127.508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 177.4952 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1a76f67-bd32-4245-8bb2-399cfc795962")
+		)
+		(pin "1"
+			(uuid "f06cca1e-2725-4e16-9219-3c05a9dc6618")
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a/95cb9219-15bb-49aa-939c-f3c0ddd8f386"
+					(reference "C75")
 					(unit 1)
 				)
 			)
